@@ -7,14 +7,14 @@ A curated list of papers, code, and resources on world models for robotic policy
 ## Table of Contents
 - [World Model as Policy ](#world-models-as-policy)
 - [World Model as Simulator ](#world-models-as-simulator)
-- [World Model for Video Generation]](#world-models-for-gen)
+- [World Model for Video Generation](#world-models-for-gen)
 - [Benchmarks for Evaluation World-Model](#benchmarks-for-evaluation-world-model)
 - [Datasets](#datasets)
 
 ---
 
 <a id="world-models-as-policy"></a>
-## World Moedl as Policy
+## World Model as Policy
 
 - **[NeurIPS'23] UniPi** — *Learning Universal Policies via Text-Guided Video Generation*
 - [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=bo8q5MRcwy)[![arXiv](https://img.shields.io/badge/arXiv-2302.00111-b31b1b.svg)](https://arxiv.org/abs/2302.00111)[![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://universal-policy.github.io/)
