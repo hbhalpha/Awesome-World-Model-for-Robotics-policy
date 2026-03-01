@@ -303,5 +303,14 @@ The repo is collected by [NTU MARS Lab](https://github.com/NTUMARS)
 - **[arXiv'26.01] RoVid-X** — *training dataset released with **Rethinking Video Generation Model for the Embodied World***  
   [![arXiv](https://img.shields.io/badge/arXiv-2601.15282-b31b1b.svg)](https://arxiv.org/abs/2601.15282)  [![GitHub](https://img.shields.io/badge/GitHub-data-181717.svg?logo=github)](https://github.com/DAGroup-PKU/ReVidgen)   [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://dagroup-pku.github.io/ReVidgen.github.io/)
 
+## Citations
 
-  
+If you find this repository useful, please consider citing the **original papers** listed above and/or citing this collection:
+
+```bibtex
+@misc{awesome_world_models_for_robot_manipulation_2026,
+  title        = {Awesome World Models for Robotic Policy},
+  author       = {NTU MARS Lab},
+  year         = {2026},
+  howpublished = {\url{https://github.com/hbhalpha/Awesome-World-Model-for-Robotics-Policy}},
+}
