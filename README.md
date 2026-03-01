@@ -107,8 +107,8 @@ The repo is collected by [NTU MARS Lab](https://github.com/NTUMARS)
 - **[arXiv'26.02] LDA-1B** — *LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion*  
   [![arXiv](https://img.shields.io/badge/arXiv-2602.12215-b31b1b.svg)](https://arxiv.org/abs/2602.12215) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/jiangranlv/LDA-1B) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://pku-epic.github.io/LDA/)
 
-- **[arXiv'26.02] DreamZero (WAM)** — *World Action Models are Zero-shot Policies (DreamZero)*  
-  [![arXiv](https://img.shields.io/badge/arXiv-2602.15922-b31b1b.svg)](https://arxiv.org/abs/2602.15922) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/dreamzero0/dreamzero)
+- **[arXiv'26.02] DreamZero (WAM)** — *World Action Models are Zero-shot Policies*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.15922-b31b1b.svg)](https://arxiv.org/abs/2602.15922) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/dreamzero0/dreamzero) [![Website](https://img.shields.io/badge/Website-NVIDIA-76B900.svg)](https://dreamzero0.github.io/)
 
 - **[arXiv'26.02] FRAPPE** — *FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment*  
   [![arXiv](https://img.shields.io/badge/arXiv-2602.17259-b31b1b.svg)](https://arxiv.org/abs/2602.17259) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/OpenHelix-Team/frappe)
@@ -122,49 +122,46 @@ The repo is collected by [NTU MARS Lab](https://github.com/NTUMARS)
 
 ---
 
-### RL in Learned World Simulators
-
-- **[arXiv'25.09] World-Env** — *World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2509.24948-b31b1b.svg)](https://arxiv.org/abs/2509.24948)   [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/amap-cvlab/world-env)
-
-- **[arXiv'25.10] VLA-RFT** — *Vision-Language-Action Reinforcement Fine-tuning with Verified Rewards in World Simulators*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2510.00406-b31b1b.svg)](https://arxiv.org/abs/2510.00406)   [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/OpenHelix-Team/VLA-RFT)
 
 - **[ICLR'26] WMPO** — *World Model-based Policy Optimization for Vision-Language-Action Models*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=qE2FyvRvuF)   [![arXiv](https://img.shields.io/badge/arXiv-2511.09515-b31b1b.svg)](https://arxiv.org/abs/2511.09515)   [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/WM-PO/WMPO)
+   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=qE2FyvRvuF) [![arXiv](https://img.shields.io/badge/arXiv-2511.09515-b31b1b.svg)](https://arxiv.org/abs/2511.09515) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/WM-PO/WMPO) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://wm-po.github.io/)
+
+- **[arXiv'25.09] World-Env** — *World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training*  
+   [![arXiv](https://img.shields.io/badge/arXiv-2509.24948-b31b1b.svg)](https://arxiv.org/abs/2509.24948) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/amap-cvlab/world-env)
+
+- **[arXiv'25.10] VLA-RFT** — *Vision-Language-Action Reinforcement Fine-tuning with Verified Rewards in World Simulators*  
+   [![arXiv](https://img.shields.io/badge/arXiv-2510.00406-b31b1b.svg)](https://arxiv.org/abs/2510.00406) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/OpenHelix-Team/VLA-RFT) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://vla-rft.github.io/)
 
 - **[arXiv'26.02] World-Gymnast** — *World-Gymnast: Training Robots with Reinforcement Learning in a World Model*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.02454-b31b1b.svg)](https://arxiv.org/abs/2602.02454)   [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/world-gymnast/world-gymnast)
+   [![arXiv](https://img.shields.io/badge/arXiv-2602.02454-b31b1b.svg)](https://arxiv.org/abs/2602.02454) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/world-gymnast/world-gymnast) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://world-gymnast.github.io/)
 
 - **[arXiv'26.02] RISE** — *RISE: Self-Improving Robot Policy with Compositional World Model*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.11075-b31b1b.svg)](https://arxiv.org/abs/2602.11075)
+   [![arXiv](https://img.shields.io/badge/arXiv-2602.11075-b31b1b.svg)](https://arxiv.org/abs/2602.11075) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://opendrivelab.com/kai0-rl/)
 
 - **[arXiv'26.02] GigaBrain-0.5M\*** — *a VLA That Learns From World Model-Based Reinforcement Learning*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.12099-b31b1b.svg)](https://arxiv.org/abs/2602.12099)   [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/open-gigaai/giga-brain-0)
+   [![arXiv](https://img.shields.io/badge/arXiv-2602.12099-b31b1b.svg)](https://arxiv.org/abs/2602.12099) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/open-gigaai/giga-brain-0) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://gigabrain05m.github.io/)
 
 - **[arXiv'26.02] WoVR** — *WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.13977-b31b1b.svg)](https://arxiv.org/abs/2602.13977)
+   [![arXiv](https://img.shields.io/badge/arXiv-2602.13977-b31b1b.svg)](https://arxiv.org/abs/2602.13977) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/RLinf/RLinf)
 
 - **[arXiv'26.02] VLAW** — *VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.12063-b31b1b.svg)](https://arxiv.org/abs/2602.12063)
+   [![arXiv](https://img.shields.io/badge/arXiv-2602.12063-b31b1b.svg)](https://arxiv.org/abs/2602.12063) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://sites.google.com/view/vlaw-arxiv)
 
 - **[arXiv'26.02] World-VLA-Loop** — *World-VLA-Loop: Closed-Loop Learning of Video World Model and VLA Policy*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.06508-b31b1b.svg)](https://arxiv.org/abs/2602.06508)   [![GitHub](https://img.shields.io/badge/GitHub-repo-181717.svg?logo=github)](https://github.com/showlab/World-VLA-Loop)
+   [![arXiv](https://img.shields.io/badge/arXiv-2602.06508-b31b1b.svg)](https://arxiv.org/abs/2602.06508) [![GitHub](https://img.shields.io/badge/GitHub-repo-181717.svg?logo=github)](https://github.com/showlab/World-VLA-Loop) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://showlab.github.io/World-VLA-Loop/)
 
 ---
 
 ### World Model for Policy Evaluation
+
+- **[ICLR'26] WorldGym** — *WorldGym: World Model as An Environment for Policy Evaluation*  
+   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=hidBHy1CAw) [![arXiv](https://img.shields.io/badge/arXiv-2506.00613-b31b1b.svg)](https://arxiv.org/abs/2506.00613) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/world-model-eval/world-model-eval) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://world-model-eval.github.io/abstract)
+
 - **[arXiv'25.05] WorldEval** — *WorldEval: World Model as Real-World Robot Policies Evaluator*  
    [![arXiv](https://img.shields.io/badge/arXiv-2505.19017-b31b1b.svg)](https://arxiv.org/abs/2505.19017) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/liyaxuanliyaxuan/Worldeval) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://worldeval.github.io/)
 
-
-- **[arXiv'25.06] Evaluating Robot Policies in a World Model**  
-   [![arXiv](https://img.shields.io/badge/arXiv-2506.00613-b31b1b.svg)](https://arxiv.org/abs/2506.00613)   [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/world-model-eval/world-model-eval)
-
 - **[arXiv'25.11] Scalable Policy Evaluation with Video World Models**  
-   [![arXiv](https://img.shields.io/badge/arXiv-2511.11520-b31b1b.svg)](https://arxiv.org/abs/2511.11520)
-
-
+   [![arXiv](https://img.shields.io/badge/arXiv-2511.11520-b31b1b.svg)](https://arxiv.org/abs/2511.11520) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://miscsubmission.github.io/world_model_policy_eval/)
 ---
 
 <a id="world-models-for-gen"></a>
