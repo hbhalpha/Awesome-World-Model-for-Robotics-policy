@@ -60,10 +60,10 @@ The repo is collected by [NTU MARS Lab](https://github.com/NTUMARS)
   [![arXiv](https://img.shields.io/badge/arXiv-2410.06158-b31b1b.svg)](https://arxiv.org/abs/2410.06158) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://gr2-manipulation.github.io/)
 
 - **[arXiv'25.08] VideoPolicy** — *Video Generators are Robot Policies*  
-  [![arXiv](https://img.shields.io/badge/arXiv-2508.00795-b31b1b.svg)](https://arxiv.org/abs/2508.00795) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/cvlab-columbia/videopolicy) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://videopolicy.cs.columbia.edu
+  [![arXiv](https://img.shields.io/badge/arXiv-2508.00795-b31b1b.svg)](https://arxiv.org/abs/2508.00795) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/cvlab-columbia/videopolicy) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://videopolicy.cs.columbia.edu)
 
-  - **[arXiv'25.09] F1** — *A Vision-Language-Action Model Bridging Understanding and Generation to Actions*  
-  [![arXiv](https://img.shields.io/badge/arXiv-2509.06951-b31b1b.svg)](https://arxiv.org/abs/2509.06951) [![GitHub](https://github.com/InternRobotics/F1-VLA) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://aopolin-lv.github.io/F1-VLA/)
+- **[arXiv'25.09] F1** — *A Vision-Language-Action Model Bridging Understanding and Generation to Actions*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2509.06951-b31b1b.svg)](https://arxiv.org/abs/2509.06951) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/InternRobotics/F1-VLA) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://aopolin-lv.github.io/F1-VLA/)
 
 - **[arXiv'25.11] RynnVLA-002** — *RynnVLA-002: A Unified Vision-Language-Action and World Model*  
   [![arXiv](https://img.shields.io/badge/arXiv-2511.17502-b31b1b.svg)](https://arxiv.org/abs/2511.17502) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/alibaba-damo-academy/RynnVLA-002)
