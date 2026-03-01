@@ -2,6 +2,7 @@
 
 A curated list of papers, code, and resources on world models for robotic policy learning.
 
+The repo is collected by [NTU-Mars-Lab](https://github.com/NTUMARS)
 
 ## Table of Contents
 - [World Model for Policy ](#world-models-as-policy)
@@ -15,6 +16,7 @@ A curated list of papers, code, and resources on world models for robotic policy
 <a id="world-models-as-policy"></a>
 ## World Model as Policy
 
+> World models（video generation models, unified models) used as backbone or components for improving Vision-Language-Action (VLA) policies.
 
 
 - **[NeurIPS'23] UniPi** — *Learning Universal Policies via Text-Guided Video Generation*  
@@ -30,10 +32,10 @@ A curated list of papers, code, and resources on world models for robotic policy
   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=c0dhw1du33) [![arXiv](https://img.shields.io/badge/arXiv-2412.14803-b31b1b.svg)](https://arxiv.org/abs/2412.14803) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/roboterax/video-prediction-policy) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://video-prediction-policy.github.io/)
 
 - **[RSS'25] UVA** — *Unified Video Action Model*  
-  [![Paper](https://img.shields.io/badge/Paper-RSS-4B5D67.svg)](https://www.roboticsproceedings.org/rss21/p074.pdf) [![arXiv](https://img.shields.io/badge/arXiv-2503.00200-b31b1b.svg)](https://arxiv.org/abs/2503.00200) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/ShuangLI59/unified_video_action) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://unified-video-action-model.github.io/)
+  [![Paper](https://img.shields.io/badge/Paper-RSS-4B5D67.svg)](https://www.roboticsproceedings.org/rss21/p074.pdf) [![arXiv](https://img.shields.io/badge/arXiv-2503.00200-b31b1b.svg)](https://arxiv.org/abs/2503.00200) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/ShuangLI59/unified_video_action) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://unified-video-action-model.github.io/) 
 
 - **[RSS'25] UWM** — *Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets*  
-  [![Paper](https://img.shields.io/badge/Paper-RSS-4B5D67.svg)](https://roboticsconference.org/program/papers/15/) [![arXiv](https://img.shields.io/badge/arXiv-2504.02792-b31b1b.svg)](https://arxiv.org/abs/2504.02792) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/WEIRDLabUW/unified-world-model)
+  [![Paper](https://img.shields.io/badge/Paper-RSS-4B5D67.svg)](https://roboticsconference.org/program/papers/15/) [![arXiv](https://img.shields.io/badge/arXiv-2504.02792-b31b1b.svg)](https://arxiv.org/abs/2504.02792) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/WEIRDLabUW/unified-world-model)  [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://weirdlabuw.github.io/uwm/)
 
 - **[NeurIPS'25] DreamVLA** — *DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge*  
   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=PK07eretkF) [![arXiv](https://img.shields.io/badge/arXiv-2507.04447-b31b1b.svg)](https://arxiv.org/abs/2507.04447) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/Zhangwenyao1/DreamVLA) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://zhangwenyao1.github.io/DreamVLA/)
@@ -90,18 +92,14 @@ A curated list of papers, code, and resources on world models for robotic policy
 - **[arXiv'26.01] LingBot-VA** — *Causal World Modeling for Robot Control (LingBot-VA)*  
   [![arXiv](https://img.shields.io/badge/arXiv-2601.21998-b31b1b.svg)](https://arxiv.org/abs/2601.21998) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/Robbyant/lingbot-va)
 
-- **[arXiv'26.02] Visuo-Tactile World Models** — *Visuo-Tactile World Models*  
-  [![arXiv](https://img.shields.io/badge/arXiv-2602.06001-b31b1b.svg)](https://arxiv.org/abs/2602.06001)
-
 - **[arXiv'26.02] World-VLA-Loop** — *World-VLA-Loop: Closed-Loop Learning of Video World Model and VLA Policy*  
   [![arXiv](https://img.shields.io/badge/arXiv-2602.06508-b31b1b.svg)](https://arxiv.org/abs/2602.06508) [![GitHub](https://img.shields.io/badge/GitHub-repo-181717.svg?logo=github)](https://github.com/showlab/World-VLA-Loop) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://showlab.github.io/World-VLA-Loop/)
 
-
 - **[arXiv'26.02] BagelVLA** — *BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation*  
-  [![arXiv](https://img.shields.io/badge/arXiv-2602.09849-b31b1b.svg)](https://arxiv.org/abs/2602.09849)
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.09849-b31b1b.svg)](https://arxiv.org/abs/2602.09849)  [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://cladernyjorn.github.io/BagelVLA.github.io/) 
 
 - **[arXiv'26.02] Say, Dream, and Act** — *Say, Dream, and Act: Learning Video World Models for Instruction-Driven Robot Manipulation*  
-  [![arXiv](https://img.shields.io/badge/arXiv-2602.10717-b31b1b.svg)](https://arxiv.org/abs/2602.10717)
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.10717-b31b1b.svg)](https://arxiv.org/abs/2602.10717) 
 
 - **[arXiv'26.02] VISTA** — *Scaling World Model for Hierarchical Manipulation Policies*  
   [![arXiv](https://img.shields.io/badge/arXiv-2602.10983-b31b1b.svg)](https://arxiv.org/abs/2602.10983) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/vista-wm/Vista-WM) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://vista-wm.github.io/)
