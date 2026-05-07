@@ -2,8 +2,11 @@
 
 A curated list of papers, code, and resources on world models for robotic policy learning.
 
-&nbsp; 📄 <a href="https://arxiv.org/abs/2605.00080">arXiv</a>&nbsp;&nbsp;
+## 📰 News
 
+* **[2026.02.17]**  🔥🔥 Release our Technical Report on <a href="https://arxiv.org/abs/2605.00080">arXiv </a> !!
+
+  
 ## Table of Contents
 - [World Model as Policy](#world-models-as-policy)
   - [IDM-style Policies](#idm-style)
