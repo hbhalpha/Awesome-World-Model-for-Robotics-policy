@@ -7,7 +7,9 @@ A curated list of papers, code, and resources on world models for robotic policy
 * **[2026.05.04]**  🔥🔥 Release our Technical Report on <a href="https://arxiv.org/abs/2605.00080">arXiv </a> !!
 
   
+
 ## Table of Contents
+
 - [World Model as Policy](#world-models-as-policy)
   - [IDM-style Policies](#idm-style)
   - [Single-backbone Policies](#single-backbone)
@@ -24,11 +26,13 @@ A curated list of papers, code, and resources on world models for robotic policy
 ---
 
 <a id="world-models-as-policy"></a>
+
 ## World Model as Policy
 
 > World models（video generation models, unified models) used as backbone or components for improving Vision-Language-Action (VLA) policies. Organized by architectural paradigm following the taxonomy in our survey.
 
 <a id="idm-style"></a>
+
 ### IDM-style Policies
 
 > Inverse Dynamics Policies: first predict future visual trajectories, then use an inverse dynamics model to recover actions. Decoupled predict-then-act pipeline.
@@ -69,7 +73,12 @@ A curated list of papers, code, and resources on world models for robotic policy
 - **[arXiv'26.02] Say, Dream, and Act** — *Say, Dream, and Act: Learning Video World Models for Instruction-Driven Robot Manipulation*  
   [![arXiv](https://img.shields.io/badge/arXiv-2602.10717-b31b1b.svg)](https://arxiv.org/abs/2602.10717)
 
+
+- **[arXiv'26.04] VAG** — *VAG: Dual-Stream Video-Action Generation for Embodied Data Synthesis*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2604.09330-b31b1b.svg)](https://arxiv.org/abs/2604.09330)
+
 <a id="single-backbone"></a>
+
 ### Single-backbone Policies
 
 > Unified Policies with Single World Model Backbone: a single shared backbone jointly models video and action through joint diffusion/prediction.
@@ -98,7 +107,15 @@ A curated list of papers, code, and resources on world models for robotic policy
 - **[arXiv'26.03] GigaWorld-Policy** — *An Efficient Action-Centered World-Action Model*  
   [![arXiv](https://img.shields.io/badge/arXiv-2603.17240-b31b1b.svg)](https://arxiv.org/abs/2603.17240)
 
+
+- **[arXiv'26.04] MV-VDP** — *Multi-View Video Diffusion Policy: A 3D Spatio-Temporal-Aware Video Action Model*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2604.03181-b31b1b.svg)](https://arxiv.org/abs/2604.03181) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://lpy1219.github.io/MV-VDP-Web/)
+
+- **[arXiv'26.04] Action Images** — *Action Images: End-to-End Policy Learning via Multiview Video Generation*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2604.06168-b31b1b.svg)](https://arxiv.org/abs/2604.06168) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/UMass-Embodied-AGI/ActionImages)
+
 <a id="moe-mot-style"></a>
+
 ### MoE/MoT-style Policies
 
 > Expert World-Model Backbones: video and action experts remain separated, interacting through shared attention / cross-attention / MoT fusion.
@@ -130,7 +147,21 @@ A curated list of papers, code, and resources on world models for robotic policy
 - **[arXiv'26.03] Fast-WAM** — *Do World Action Models Need Test-Time Future Imagination?*  
   [![arXiv](https://img.shields.io/badge/arXiv-2603.16666-b31b1b.svg)](https://arxiv.org/abs/2603.16666)
 
+
+- **[arXiv'26.04] STARRY** — *STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2604.26848-b31b1b.svg)](https://arxiv.org/abs/2604.26848)
+
+- **[arXiv'26.04] MotuBrain** — *MotuBrain: An Advanced World Action Model for Robot Control*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2604.27792-b31b1b.svg)](https://arxiv.org/abs/2604.27792)
+
+- **[arXiv'26.04] WAV** — *World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2604.14732-b31b1b.svg)](https://arxiv.org/abs/2604.14732)
+
+- **[arXiv'26.05] CKT-WAM** — *CKT-WAM: Parameter-Efficient Context Knowledge Transfer Between World Action Models*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2605.06247-b31b1b.svg)](https://arxiv.org/abs/2605.06247)
+
 <a id="unified-vla"></a>
+
 ### Unified VLA Models
 
 > Unified Vision-Language-Action architectures that internalize world modeling as a training objective within a single multimodal backbone.
@@ -140,7 +171,7 @@ A curated list of papers, code, and resources on world models for robotic policy
 
 - **[arXiv'24.10] GR-2** — *GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation*  
   [![arXiv](https://img.shields.io/badge/arXiv-2410.06158-b31b1b.svg)](https://arxiv.org/abs/2410.06158) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://gr2-manipulation.github.io/)
-  
+
 - **[ICML'25] UP-VLA** — *A Unified Understanding and Prediction Model for Embodied Agent*  
   [![arXiv](https://img.shields.io/badge/arXiv-2501.18867-b31b1b.svg)](https://arxiv.org/abs/2501.18867)
 
@@ -171,7 +202,12 @@ A curated list of papers, code, and resources on world models for robotic policy
 - **[arXiv'26.02] HALO** — *A Unified VLA Model for Embodied Multimodal Chain-of-Thought Reasoning*  
   [![arXiv](https://img.shields.io/badge/arXiv-2602.21157-b31b1b.svg)](https://arxiv.org/abs/2602.21157)
 
+
+- **[arXiv'26.05] OA-WAM** — *OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2605.06481-b31b1b.svg)](https://arxiv.org/abs/2605.06481)
+
 <a id="latent-space-wm"></a>
+
 ### Latent-space World Modeling
 
 > Policies with Latent-Space World Modeling: internalize future prediction in representation space without explicit video generation. JEPA-style approaches.
@@ -194,15 +230,24 @@ A curated list of papers, code, and resources on world models for robotic policy
 - **[arXiv'26.03] DIAL** — *Decoupling Intent and Action via Latent World Modeling for End-to-End VLA*  
   [![arXiv](https://img.shields.io/badge/arXiv-2603.29844-b31b1b.svg)](https://arxiv.org/abs/2603.29844)
 
+- **[arXiv'26.04] AIM** — *Intent-Aware Unified World Action Modeling with Spatial Value Maps*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2604.11135-b31b1b.svg)](https://arxiv.org/abs/2604.11135)
+
+- **[arXiv'26.04] DexWorldModel** — *DexWorldModel: Causal Latent World Modeling towards Automated Learning of Embodied Tasks*  
+  [![arXiv](https://img.shields.io/badge/arXiv-2604.16484-b31b1b.svg)](https://arxiv.org/abs/2604.16484)
+
+
 ---
 
 
 <a id="world-models-as-simulator"></a>
+
 ## World Model as Simulator
 
 > Beyond predictive conditioning, world models can serve as **interactive simulators**: given observations, instructions, and candidate actions, they roll out future states, provide feedback signals, and support downstream decision-making through imagined interaction. This section covers two complementary uses: reinforcement learning in learned simulators, and evaluation/planning through imagined rollouts.
 
 <a id="wm-for-rl"></a>
+
 ### World Model for Reinforcement Learning
 
 > World models as learned environments for policy improvement through imagined rollouts, replacing costly physical interaction.
@@ -217,45 +262,46 @@ A curated list of papers, code, and resources on world models for robotic policy
   [![arXiv](https://img.shields.io/badge/arXiv-2508.03645-b31b1b.svg)](https://arxiv.org/abs/2508.03645)
 
 - **[arXiv'25.09] World-Env** — *World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2509.24948-b31b1b.svg)](https://arxiv.org/abs/2509.24948) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/amap-cvlab/world-env)
+  [![arXiv](https://img.shields.io/badge/arXiv-2509.24948-b31b1b.svg)](https://arxiv.org/abs/2509.24948) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/amap-cvlab/world-env)
 
 - **[arXiv'25.09] World4RL** — *Diffusion World Models for Policy Refinement with Reinforcement Learning for Robotic Manipulation*  
   [![arXiv](https://img.shields.io/badge/arXiv-2509.19080-b31b1b.svg)](https://arxiv.org/abs/2509.19080)
 
 - **[arXiv'25.10] VLA-RFT** — *Vision-Language-Action Reinforcement Fine-tuning with Verified Rewards in World Simulators*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2510.00406-b31b1b.svg)](https://arxiv.org/abs/2510.00406) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/OpenHelix-Team/VLA-RFT) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://vla-rft.github.io/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2510.00406-b31b1b.svg)](https://arxiv.org/abs/2510.00406) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/OpenHelix-Team/VLA-RFT) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://vla-rft.github.io/)
 
 - **[arXiv'25.11] ProphRL** — *Reinforcing Action Policies by Prophesying*  
   [![arXiv](https://img.shields.io/badge/arXiv-2511.20633-b31b1b.svg)](https://arxiv.org/abs/2511.20633)
 
 - **[ICLR'26] WMPO** — *World Model-based Policy Optimization for Vision-Language-Action Models*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=qE2FyvRvuF) [![arXiv](https://img.shields.io/badge/arXiv-2511.09515-b31b1b.svg)](https://arxiv.org/abs/2511.09515) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/WM-PO/WMPO) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://wm-po.github.io/)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=qE2FyvRvuF) [![arXiv](https://img.shields.io/badge/arXiv-2511.09515-b31b1b.svg)](https://arxiv.org/abs/2511.09515) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/WM-PO/WMPO) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://wm-po.github.io/)
 
 - **[CVPR'26] RehearseVLA** — *Simulated Post-Training for VLAs with Physically-Consistent World Model*  
   [![arXiv](https://img.shields.io/badge/arXiv-2509.24948-b31b1b.svg)](https://arxiv.org/abs/2509.24948)
 
 - **[arXiv'26.02] World-Gymnast** — *World-Gymnast: Training Robots with Reinforcement Learning in a World Model*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.02454-b31b1b.svg)](https://arxiv.org/abs/2602.02454) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/world-gymnast/world-gymnast) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://world-gymnast.github.io/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.02454-b31b1b.svg)](https://arxiv.org/abs/2602.02454) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/world-gymnast/world-gymnast) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://world-gymnast.github.io/)
 
 - **[arXiv'26.02] RISE** — *RISE: Self-Improving Robot Policy with Compositional World Model*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.11075-b31b1b.svg)](https://arxiv.org/abs/2602.11075) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://opendrivelab.com/kai0-rl/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.11075-b31b1b.svg)](https://arxiv.org/abs/2602.11075) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://opendrivelab.com/kai0-rl/)
 
 - **[arXiv'26.02] VLAW** — *VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.12063-b31b1b.svg)](https://arxiv.org/abs/2602.12063) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://sites.google.com/view/vlaw-arxiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.12063-b31b1b.svg)](https://arxiv.org/abs/2602.12063) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://sites.google.com/view/vlaw-arxiv)
 
 - **[arXiv'26.02] GigaBrain-0.5M\*** — *a VLA That Learns From World Model-Based Reinforcement Learning*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.12099-b31b1b.svg)](https://arxiv.org/abs/2602.12099) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/open-gigaai/giga-brain-0) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://gigabrain05m.github.io/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.12099-b31b1b.svg)](https://arxiv.org/abs/2602.12099) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/open-gigaai/giga-brain-0) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://gigabrain05m.github.io/)
 
 - **[arXiv'26.02] WoVR** — *WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.13977-b31b1b.svg)](https://arxiv.org/abs/2602.13977) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/RLinf/RLinf)
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.13977-b31b1b.svg)](https://arxiv.org/abs/2602.13977) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/RLinf/RLinf)
 
 - **[arXiv'26.02] World-VLA-Loop** — *World-VLA-Loop: Closed-Loop Learning of Video World Model and VLA Policy*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.06508-b31b1b.svg)](https://arxiv.org/abs/2602.06508) [![GitHub](https://img.shields.io/badge/GitHub-repo-181717.svg?logo=github)](https://github.com/showlab/World-VLA-Loop) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://showlab.github.io/World-VLA-Loop/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.06508-b31b1b.svg)](https://arxiv.org/abs/2602.06508) [![GitHub](https://img.shields.io/badge/GitHub-repo-181717.svg?logo=github)](https://github.com/showlab/World-VLA-Loop) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://showlab.github.io/World-VLA-Loop/)
 
 - **[arXiv'26.03] PlayWorld** — *Learning Robot World Models from Autonomous Play*  
   [![arXiv](https://img.shields.io/badge/arXiv-2603.09030-b31b1b.svg)](https://arxiv.org/abs/2603.09030)
 
 <a id="wm-for-eval"></a>
+
 ### World Model for Evaluation
 
 > World models as evaluators: scoring candidate behaviors, ranking policies, supporting MPC planning, and enabling decision-time action selection through predictive rollout.
@@ -264,17 +310,17 @@ A curated list of papers, code, and resources on world models for robotic policy
   [![arXiv](https://img.shields.io/badge/arXiv-2310.16828-b31b1b.svg)](https://arxiv.org/abs/2310.16828)
 
 - **[ICLR'26] WorldGym** — *WorldGym: World Model as An Environment for Policy Evaluation*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=hidBHy1CAw) [![arXiv](https://img.shields.io/badge/arXiv-2506.00613-b31b1b.svg)](https://arxiv.org/abs/2506.00613) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/world-model-eval/world-model-eval) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://world-model-eval.github.io/abstract)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=hidBHy1CAw) [![arXiv](https://img.shields.io/badge/arXiv-2506.00613-b31b1b.svg)](https://arxiv.org/abs/2506.00613) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/world-model-eval/world-model-eval) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://world-model-eval.github.io/abstract)
 
 
 - **[ICLR'26] Horizon Imagination** — *Horizon Imagination: Efficient On-Policy Rollout in Diffusion World Models*  
   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=Obefq4k8iG) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/leor-c/horizon-imagination)
-  
+
 - **[arXiv'25.05] WorldEval** — *WorldEval: World Model as Real-World Robot Policies Evaluator*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2505.19017-b31b1b.svg)](https://arxiv.org/abs/2505.19017) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/liyaxuanliyaxuan/Worldeval) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://worldeval.github.io/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2505.19017-b31b1b.svg)](https://arxiv.org/abs/2505.19017) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/liyaxuanliyaxuan/Worldeval) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://worldeval.github.io/)
 
 - **[arXiv'25.11] Scalable Policy Evaluation with Video World Models**  
-   [![arXiv](https://img.shields.io/badge/arXiv-2511.11520-b31b1b.svg)](https://arxiv.org/abs/2511.11520) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://miscsubmission.github.io/world_model_policy_eval/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2511.11520-b31b1b.svg)](https://arxiv.org/abs/2511.11520) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://miscsubmission.github.io/world_model_policy_eval/)
 
 - **[arXiv'25.12] Evaluating Gemini Robotics Policies in a Veo World Simulator**  
   [![arXiv](https://img.shields.io/badge/arXiv-2512.10675-b31b1b.svg)](https://arxiv.org/abs/2512.10675)
@@ -294,6 +340,7 @@ A curated list of papers, code, and resources on world models for robotic policy
 ---
 
 <a id="world-models-for-gen"></a>
+
 ## World Model for Video Generation
 
 > Video generation / video world models for robotics, including interactive simulators, imagination-based policy learning, and foundation video-world backbones that support robot learning.
@@ -302,67 +349,67 @@ A curated list of papers, code, and resources on world models for robotic policy
   [![arXiv](https://img.shields.io/badge/arXiv-2310.10625-b31b1b.svg)](https://arxiv.org/abs/2310.10625)
 
 - **[CoRL'24] Dreamitate** — *Dreamitate: Real-World Visuomotor Policy Learning via Video Generation*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=InT87E5sr4)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=InT87E5sr4)
 
 - **[ICML'24] RoboDreamer** — *RoboDreamer: Learning Compositional World Models for Robot Imagination*  
-   [![Paper](https://img.shields.io/badge/Paper-PMLR-4B5D67.svg)](https://proceedings.mlr.press/v235/zhou24f.html) [![arXiv](https://img.shields.io/badge/arXiv-2404.12377-b31b1b.svg)](https://arxiv.org/abs/2404.12377) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/UMass-Embodied-AGI/robodreamer) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://robovideo.github.io/)
+  [![Paper](https://img.shields.io/badge/Paper-PMLR-4B5D67.svg)](https://proceedings.mlr.press/v235/zhou24f.html) [![arXiv](https://img.shields.io/badge/arXiv-2404.12377-b31b1b.svg)](https://arxiv.org/abs/2404.12377) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/UMass-Embodied-AGI/robodreamer) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://robovideo.github.io/)
 
 - **[ICLR'25] DreMa** — *Dream to Manipulate: Compositional World Models Empowering Robot Imitation Learning with Imagination*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=3RSLW9YSgk) [![arXiv](https://img.shields.io/badge/arXiv-2410.04587-b31b1b.svg)](https://arxiv.org/abs/2410.04587)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=3RSLW9YSgk) [![arXiv](https://img.shields.io/badge/arXiv-2410.04587-b31b1b.svg)](https://arxiv.org/abs/2410.04587)
 
 - **[ICLR'25] CogVideoX** — *CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=LQzN6TRFg9) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/THUDM/CogVideo)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=LQzN6TRFg9) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/THUDM/CogVideo)
 
 - **[CoRL'25] DreamGen** — *DreamGen: Unlocking Generalization in Robot Learning through Video World Models*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=3CnxNqmklv) [![arXiv](https://img.shields.io/badge/arXiv-2505.12705-b31b1b.svg)](https://arxiv.org/abs/2505.12705) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://dreamgen-robot.github.io/)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=3CnxNqmklv) [![arXiv](https://img.shields.io/badge/arXiv-2505.12705-b31b1b.svg)](https://arxiv.org/abs/2505.12705) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://dreamgen-robot.github.io/)
 
 - **[ICCV'25] PhysWorld** — *PhysWorld: Robot Learning from a Physical World Model*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2505.09171-b31b1b.svg)](https://arxiv.org/abs/2505.09171)
+  [![arXiv](https://img.shields.io/badge/arXiv-2505.09171-b31b1b.svg)](https://arxiv.org/abs/2505.09171)
 
 - **[ICCV'25] IRASim** — *IRASim: A Fine-Grained World Model for Robot Manipulation*  
-   [![Paper](https://img.shields.io/badge/Paper-CVF-4B5D67.svg)](https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_IRASim_A_Fine-Grained_World_Model_for_Robot_Manipulation_ICCV_2025_paper.html) [![arXiv](https://img.shields.io/badge/arXiv-2506.05034-b31b1b.svg)](https://arxiv.org/abs/2506.05034) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/bytedance/IRASim) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://gen-irasim.github.io/)
+  [![Paper](https://img.shields.io/badge/Paper-CVF-4B5D67.svg)](https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_IRASim_A_Fine-Grained_World_Model_for_Robot_Manipulation_ICCV_2025_paper.html) [![arXiv](https://img.shields.io/badge/arXiv-2506.05034-b31b1b.svg)](https://arxiv.org/abs/2506.05034) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/bytedance/IRASim) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://gen-irasim.github.io/)
 
 - **[IROS'25] RoboEnvision** — *RoboEnvision: A Long-Horizon Video Generation Model for Multi-Task Robot Manipulation*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2507.18867-b31b1b.svg)](https://arxiv.org/abs/2507.18867)
+  [![arXiv](https://img.shields.io/badge/arXiv-2507.18867-b31b1b.svg)](https://arxiv.org/abs/2507.18867)
 
 - **[ICLR'26] RoboMaster** — *Learning Video Generation for Robotic Manipulation with Collaborative Trajectory Control*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=OeDwYtp8n1) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/KlingAIResearch/RoboMaster) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](http://fuxiao0719.github.io/projects/robomaster)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=OeDwYtp8n1) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/KlingAIResearch/RoboMaster) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](http://fuxiao0719.github.io/projects/robomaster)
 
 - **[ICLR'26] Vid2World** — *Vid2World: Crafting Video Diffusion Models to Interactive World Models*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=pFyzqbUiF9) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/thuml/Vid2World) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://knightnemo.github.io/vid2world/)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=pFyzqbUiF9) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/thuml/Vid2World) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://knightnemo.github.io/vid2world/)
 
 - **[ICLR'26] Genie Envisioner** — *Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=fHLtSxDFKC) [![arXiv](https://img.shields.io/badge/arXiv-2508.05635-b31b1b.svg)](https://arxiv.org/abs/2508.05635) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/AgibotTech/Genie-Envisioner) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://genie-envisioner.github.io/)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=fHLtSxDFKC) [![arXiv](https://img.shields.io/badge/arXiv-2508.05635-b31b1b.svg)](https://arxiv.org/abs/2508.05635) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/AgibotTech/Genie-Envisioner) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://genie-envisioner.github.io/)
 
 - **[ICLR'26] Ctrl-World** — *Ctrl-World: A Controllable Generative World Model for Robot Manipulation*  
-   [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=748bHL2BAv) [![arXiv](https://img.shields.io/badge/arXiv-2510.10125-b31b1b.svg)](https://arxiv.org/abs/2510.10125) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/Robert-gyj/Ctrl-World) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://ctrl-world.github.io/)
+  [![Paper](https://img.shields.io/badge/Paper-OpenReview-4B5D67.svg)](https://openreview.net/forum?id=748bHL2BAv) [![arXiv](https://img.shields.io/badge/arXiv-2510.10125-b31b1b.svg)](https://arxiv.org/abs/2510.10125) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/Robert-gyj/Ctrl-World) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://ctrl-world.github.io/)
 
 - **[AAAI'26] Mask2IV** — *Mask2IV: Interaction-Centric Video Generation via Mask Trajectories*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2510.03135-b31b1b.svg)](https://arxiv.org/abs/2510.03135) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/Reagan1311/Mask2IV) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://reagan1311.github.io/mask2iv/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2510.03135-b31b1b.svg)](https://arxiv.org/abs/2510.03135) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/Reagan1311/Mask2IV) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://reagan1311.github.io/mask2iv/)
 
 - **[arXiv'25.04] ManipDreamer** — *ManipDreamer: Boosting Robotic Manipulation World Model with Action Tree and Visual Guidance*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2504.10406-b31b1b.svg)](https://arxiv.org/abs/2504.10406) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)]() [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://myendless1.github.io/ManipDreamer/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2504.10406-b31b1b.svg)](https://arxiv.org/abs/2504.10406) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)]() [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://myendless1.github.io/ManipDreamer/)
 
 - **[arXiv'25.04] TesserAct** — *TesserAct*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2504.20995-b31b1b.svg)](https://arxiv.org/abs/2504.20995) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)]() [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://tesseractworld.github.io/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2504.20995-b31b1b.svg)](https://arxiv.org/abs/2504.20995) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)]() [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://tesseractworld.github.io/)
 
 - **[arXiv'25.05] EnerVerse-AC** — *EnerVerse-AC*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2505.09723-b31b1b.svg)](https://arxiv.org/abs/2505.09723) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/AgibotTech/EnerVerse-AC) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://tesseractworld.github.io/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2505.09723-b31b1b.svg)](https://arxiv.org/abs/2505.09723) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/AgibotTech/EnerVerse-AC) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://tesseractworld.github.io/)
 
 - **[arXiv'25.09] WoW** — *WoW: Towards a World-omniscient World-model Through Embodied Interaction*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2509.22642-b31b1b.svg)](https://arxiv.org/abs/2509.22642) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/wow-world-model/wow-world-model)
+  [![arXiv](https://img.shields.io/badge/arXiv-2509.22642-b31b1b.svg)](https://arxiv.org/abs/2509.22642) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/wow-world-model/wow-world-model)
 
 - **[Tech Release'25.09] UnifoLM-WMA-0** — *UnifoLM-WMA-0: A World-Model-Action Framework for General-Purpose Robot Learning*  
-   [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/unitreerobotics/unifolm-world-model-action) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://unigen-x.github.io/unifolm-world-model-action.github.io/)
+  [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/unitreerobotics/unifolm-world-model-action) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://unigen-x.github.io/unifolm-world-model-action.github.io/)
 
 - **[Tech Report'25.10] Cosmos Predict 2.5** — *Cosmos-Predict2.5: A Suite of Diffusion-based World Foundation Models*  
-   [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/nvidia-cosmos/cosmos-predict2.5) [![Website](https://img.shields.io/badge/Website-NVIDIA-76B900.svg)](https://research.nvidia.com/labs/dir/cosmos-predict2.5/)
+  [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/nvidia-cosmos/cosmos-predict2.5) [![Website](https://img.shields.io/badge/Website-NVIDIA-76B900.svg)](https://research.nvidia.com/labs/dir/cosmos-predict2.5/)
 
 - **[arXiv'25.11] GigaWorld-0** — *GigaWorld-0*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2511.19861-b31b1b.svg)](https://arxiv.org/abs/2511.19861) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/AgibotTech/EnerVerse-AC) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://giga-world-0.github.io/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2511.19861-b31b1b.svg)](https://arxiv.org/abs/2511.19861) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/AgibotTech/EnerVerse-AC) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://giga-world-0.github.io/)
 
 - **[arXiv'26.01] RoboVIP** — *RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation*  
-   [![arXiv](https://img.shields.io/badge/arXiv-2601.05241-b31b1b.svg)](https://arxiv.org/abs/2601.05241) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/RoboVIP/RoboVIP_VDM) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://robovip.github.io/RoboVIP/)
+  [![arXiv](https://img.shields.io/badge/arXiv-2601.05241-b31b1b.svg)](https://arxiv.org/abs/2601.05241) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/RoboVIP/RoboVIP_VDM) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://robovip.github.io/RoboVIP/)
 
 - **[arXiv'26.02] DreamDojo** — *DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos*  
   [![arXiv](https://img.shields.io/badge/arXiv-2602.06949-b31b1b.svg)](https://arxiv.org/abs/2602.06949) [![GitHub](https://img.shields.io/badge/GitHub-code-181717.svg?logo=github)](https://github.com/NVIDIA/DreamDojo) [![Website](https://img.shields.io/badge/Website-page-0A66C2.svg)](https://dreamdojo-world.github.io/)
@@ -376,6 +423,7 @@ A curated list of papers, code, and resources on world models for robotic policy
 ---
 
 <a id="benchmarks-for-evaluation-world-model"></a>
+
 ## Benchmarks for Evaluation World-Model
 
 > Benchmarks / evaluation suites for embodied world models, video world models, and world simulators.  
@@ -408,6 +456,7 @@ A curated list of papers, code, and resources on world models for robotic policy
 ---
 
 <a id="datasets"></a>
+
 ## Datasets
 
 > Training datasets, preference datasets, and instruction-tuning datasets.  
